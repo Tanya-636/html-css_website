@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+header{
+    background-image:url(graduation.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    background-color: rgba(red, green, blue, 0.9);
+    background-repeat: no-repeat;
+   
+   
+    
+
+}
+.main{
+    max-width:100%;
+    height: 100%;
+    margin: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ;
+    
+   
+    
+}
+.logo img{
+    width:155px;
+    height: auto;
+    float: left;
+}
+.logo h4{
+    float: left;
+    padding: 20px;
+    width:25%;
+    text-align: left;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-shadow: 2px 1px 5px black;
+    
+}
+ul li.active a{
+    color:black;
+ background-color: whitesmoke;
+}
+main{
+
+    width:100%;
+    height:55vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+section h3{
+font-size:45px;
+font-weight: 900;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: white;
+font-family: 'Playfair Display', serif;
+text-shadow: 2px 1px 5px rgb(5, 11, 99);
+}
+section h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(253, 253, 253);
+    font-size: 30px;
+    padding: 5px;
+    text-shadow: 2px 1px 5px rgb(231, 72, 9);
+}
+section a{
+    padding: 10px 30px;
+    border-radius: 4px;
+    outline:none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+section .learn_more{
+    background: rgba(238, 8, 8, 0.979);
+    color: white;
+
+}
+.learn_more:hover{
+    color:white;
+}
+.change_contain:after{
+    content:'';
+    animation: changetext 10s infinite linear;
+    color: rgba(6, 8, 88, 0.993);
+    text-decoration-color: rgb(0, 45, 128);
+    text-decoration:underline;
+}
+@keyframes changetext{
+    0%{content:"INOVATE";}
+    30%{content:"CREATE";}
+    60%{content:"COMPETE";}
+    100%{content:"CELEBRATE";}
+
+    
+}
+ .title{
+    animation: flash 2s infinite linear;
+
+}
+footer p{
+    text-align: center;
+}
+.section_one h3{
+    font-family: 'Lobster', cursive;
+    color: rgb(4, 4, 92);
+    font-size: 43px;
+    animation: flash 5s infinite linear;}
+    
+.section_two h3{
+    font-family: 'Lobster', cursive;
+    color: rgb(4, 4, 92);
+    font-size: 43px;
+    animation: flash 5s infinite linear;
+    
+
+}
+article p{
+    font-family: 'Roboto Slab', serif;
+    color: crimson;
+    font-size: 27px;
+    
+    
+}
+article{
+    text-align: center;
+    display:flex;
+    width:auto;
+    justify-content: center;
+    padding: 20px;
+    background-image:url(artback.jpg);
+    background-size:cover;
+    background-position:center;
+    background-color: rgba(red, green, blue, 0.9);
+
+    
+    
+}
+.section_one{
+    padding: 15px;
+    margin:5px;
+    margin-bottom: 50px;
+    background: white;
+    width: 45%;
+    position: relative;
+    height: 36vh;
+    line-height: 50px;
+    outline-style: solid;
+    outline-color: steelblue;
+    
+}
+
+.section_two{
+    padding: 15px;
+    margin:5px;
+    margin-bottom: 50px;
+    background: white;
+    width:45%;
+    position: relative;
+    height: 36vh;
+    outline-style: solid;
+    outline-color: steelblue;
+
+}
+

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+body{
+    background-image:url(artback.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    background-color: rgba(red, green, blue, 0.9);
+    background-repeat: no-repeat;
+   
+}
+.main{
+    max-width:100%;
+    height: 100%;
+    margin: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ;
+    
+   
+    
+}
+.navbar{
+    width:100%;
+    height:30%;
+}
+.logo img{
+    width:155px;
+    height: auto;
+    float: left;
+}
+.logo h4{
+    float: left;
+    padding: 20px;
+    width:25%;
+    text-align: left;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-shadow: 2px 1px 5px black;
+}
+ul li.active a{
+    color:black;
+ background-color: whitesmoke;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+ul li{
+margin: 0;
+padding: 0;
+display: inline-block;
+}
+ul li a{
+        border: 2px;
+        border-style: solid;
+        border-color: transparent;
+        color:white;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-decoration: none;
+        transition: 0.7 ease;
+        
+}
+ul li a:hover{
+    color:black;
+    background-color: whitesmoke;
+}
+div.gallery{
+  margin: 3px;
+  border: 1px solid rgb(194, 26, 26);
+  float: left;
+  width: 23%;
+  height: 85%;
+}
+div.gallery:hover {
+    border: 3px solid rgb(10, 12, 134);
+  }
+  
+  div.gallery img {
+    width: 96%;
+    height: auto;
+    margin:3px;
+  }
+  
+  div.desc {
+    padding: 5px;
+    text-align: center;
+  }
+  .container h1{
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 24px;
+  }
+  .container h1{
+    text-shadow: 2px 1px 5px rgb(172, 232, 243);
+  }

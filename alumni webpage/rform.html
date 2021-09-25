@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="rstyle.css">
+
+</head>
+<body>
+    <div class="container">
+    <form action="/action_page.php" target="blank" method="POST" autocomplete="on">
+        <h2><i><b>Registration Form</b></i></h2>
+        <p>field marked * is required</p>
+        <h4>Please fill the details</h4>
+        <h3>Contact information</h3>
+        <p>First Name *:<input type="text" name="fname" required></p>
+        <p>Last Name:<input type="text" name="lname" required></p>
+        <fieldset>
+            <legend>Gender *</legend>
+            <p>
+                Male:<input type="radio" name="gender" id="male" readonly>
+                Female:<input type="radio" name="gender" id="female" required>
+                Other:<input type="radio" name="gender" id="other" required>
+            </p>
+        </fieldset>
+        <p>
+            Email:*<input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            Enter your phone number*:<input type="tel" name="phone" id="phone" maxlength="10" required>
+        </p>
+        <p>
+            Enter birthdate:<input type="date" name="birth" id="birth">
+        </p>
+        <p>
+            Enter your passport size photo:<input type="file" name="photo">
+        </p>
+        <p>
+           Address:<textarea name="address" id="address" cols="100" rols="8"></textarea>
+        </p>
+        <p>Pincode:*<input type="number" name="pincode"  id="pincode" maxlength="6" required></p>
+        <hr>
+        <h3>Payment information</h3>
+        <p>Card type:
+            <select name="card_type" id="card_type" required>
+                <option value="">---select a card type--</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="rupay">Rupay</option>
+            </select>
+        </p>
+        <p>
+            Card Number*:<input type="tel" name="no" id="no" maxlength="16" required>
+        </p>
+        <p>
+            Expiration date*:<input type="date" name="exp" id="exp" required>
+            CVV*:<input type="password" name="cvv" id="cvv" maxlength="3" required>
+        </p>
+        <p><input type="submit" value="Register Now"></p><p><input type="reset" value="reset"></p>
+
+                
+            
+
+
+        
+
+        
+        
+        
+        
+
+    </form>
+    </div>    
+    
+    
+</body>
+</html>

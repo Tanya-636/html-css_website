@@ -1,0 +1,41 @@
+body{
+    background-image: url(graduation2.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+.login{
+    width:320px;
+    height: 420px;
+    background:rgb(118, 210, 226);
+    color: black;
+    top:50%;
+    left:50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform:translate(-50%,-50%);
+    padding:70px 30px;
+    opacity: 0.8;
+}
+.login_user{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left: 107px;
+}
+.login input[type="submit"]
+{
+    border:none;
+    outline: none;
+    height:40px;
+    background:rgb(2, 28, 146);
+    color:whitesmoke;
+    font-size: 18px;
+    border-radius:20px;
+    width: 250px;
+}
