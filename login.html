@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lstyle.css">
+    <style>
+        .main{
+    max-width:100%;
+    height: 100%;
+    margin: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ;
+    
+   
+    
+}
+.logo img{
+    width:155px;
+    height: auto;
+    float: left;
+}
+.logo h4{
+    float: left;
+    padding: 20px;
+    width:25%;
+    text-align: left;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-shadow: 2px 1px 5px black;
+}
+ul li.active a{
+    color:black;
+ background-color: whitesmoke;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+ul li{
+margin: 0;
+padding: 0;
+display: inline-block;
+}
+ul li a{
+        border: 2px;
+        border-style: solid;
+        border-color: transparent;
+        color:white;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-decoration: none;
+        transition: 0.7 ease;
+        
+}
+ul li a:hover{
+    color:black;
+    background-color: whitesmoke;
+}
+    </style>
+    
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <img src="cn logo.png"><h4 class="title">CN university</h4>
+        </div>
+        <ul>
+            <li><a href="alumni.html" target="_self">Home</a></li>
+            <li><a href="mission.html" target="_self">Mission</a></li>
+            <li ><a href="event.html">Events</a></li>
+            <li class="active" ><a href="login.html" target="_self">Login</a></li>
+            
+        </ul>
+    </div>
+   <div class="login">
+        <form action="/action_page.php" target="blank" method="POST" autocomplete="on">
+            <img src="login user.png" class="login_user">
+            <h3 align="center">LOGIN</h3>
+            <p>Username:</p>
+            <input type="text" placeholder="enter username">
+            <p>Password</p>
+            <input type="password" placeholder="enter password">
+            <br>
+            <br>
+            <input type="submit" name="Login">
+            <a href="#"><p>Forgot Password?</p></a>
+            <a href="rform.html"><p>Or To Sign Up</p></a>
+        </form>
+
+            
+        
+        
+
+    </div>
+   
+</body>
+</html>
